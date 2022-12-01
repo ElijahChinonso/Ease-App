@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="EaseAppFiles/index_1.css">
+    <title>Home</title>
+</head>
+<body>
+<div class="main">
+
+    <div class="up">
+        <div class="rectangles">
+            <div class="rectangle-1"></div>
+            <div class="rectangle-2"></div>
+            <div class="rectangle-3"></div>
+        </div>
+        <div class="links">
+            <a href="index.html" style="text-decoration: none"><p id="home">Home</p></a>
+            <a href="index.html" style="text-decoration: none"><p>About Us</p></a>
+            <a href="index_2.html" style="text-decoration: none"><p>Services</p></a>
+            <a href="" style="text-decoration: none"><p>FAQs</p></a>
+        </div>
+    </div>
+
+    <div class="Create_new_account">
+        <p>Create new account</p>
+        <label>
+            <input class="rectangle-4" placeholder="First Name"/>
+        </label>
+        <label>
+            <input class="rectangle-5" placeholder="Last Name"/>
+        </label>
+        <label>
+            <input class="rectangle-6" placeholder="Phone Number"/>
+        </label>
+        <label>
+            <input class="rectangle-7" placeholder="Email Address"/>
+        </label>
+        <div class="rectangle-8" contenteditable="true">
+
+                <form name="dropForm">
+                <label>
+                    <select name="dropSelect" onchange="showDropInfo()">
+                        <option value="0">Account Type:</option>
+                        <option value="a0.tb">Savings</option>
+                        <option value="b1.ce">Current</option>
+                    </select>
+                </label>
+                </form>
+
+                <p id="boy"></p>
+                <p id="girl"></p>
+        </div>
+        <a href="index.html" style="text-decoration: none">Continue</a>
+    </div>
+
+</div>
+<script>
+    function showDropInfo(){
+        let st = dropForm.dropSelect
+        let boy = document.getElementById("boy");
+        let girl = document.getElementById("girl");
+        boy.innerHTML = ('Account Index: ' + st.selectedIndex);
+        girl.innerHTML = ('Account ID: ' + st[st.selectedIndex].value);
+    }
+</script>
+</body>
+</html>

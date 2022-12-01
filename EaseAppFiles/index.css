@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background: rgba(1, 224, 104, 0.2);
+}
+.up {
+    display: flex;
+}
+
+.rectangles{
+    padding: 8vh 10vh 10vh;
+}
+.rectangle-1{
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #009A47 50%, #000000 131.48%);
+    margin-bottom: 5px;
+    margin-left:5px;
+    width: 23px;
+    height: 5px;
+}
+.rectangle-2{
+    background: linear-gradient(90deg, #009A47 50%, #000000 131.48%);
+    margin-bottom: 5px;
+    width: 23px;
+    height: 5px;
+}
+.rectangle-3{
+    background: linear-gradient(90deg, #009A47 50%, #000000 131.48%);
+    margin-left: 5px;
+    width: 23px;
+    height: 5px;
+}
+
+.links{
+
+    background: rgba(217, 217, 217, 0.2);
+    display: flex;
+    width:690px;
+    height: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 15%;
+    mix-blend-mode: darken;
+    margin-top: 40px;
+    border-radius: 35px;
+}
+
+.links a:hover{
+    color: lime;
+}
+
+#home{
+    color: red;
+}
+
+.links > a{
+    /*background-color: black;*/
+    color: black;
+    padding-left: 70px;
+    padding-right: 30px;
+    padding-top: 15px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+#login{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 166px;
+    height: 40px;
+    left: 1260px;
+    top: 49px;
+
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    border: 2px solid #065A2D;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.39em;
+}
+
+.down-1{
+    display: flex;
+}
+.circle_e\.girl > img{
+    width: 436px;
+    height: 412px;
+    margin-top: -330px;
+    margin-left: 97px;
+}
+.circle_e\.girl > .circle {
+
+    border: 3px solid red;
+    width:385px;
+    height:385px;
+    margin-top: 150px;
+    margin-left: 183px;
+    border-radius: 50%;
+}
+.advantages-1{
+    padding-left: 30vh;
+    text-align: end;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.advantages-1 > #pay_with_style{
+    width: 499px;
+    height: 90px;
+    font-size: 74px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 90px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.advantages-1 > #complete_transactions_in_seconds{
+    width: 321px;
+    height: 24px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 24px;
+    margin-top: 32px;
+    margin-left: 185px;
+    margin-bottom: 50px;
+}
+.advantages-1 > a{
+    background-color: green;
+    color: white;
+    width: 230px;
+    height: 71px;
+    margin-left: 60px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 10px;
+    border: none;
+}
+
+.down-2{
+    display: flex;
+}
+
+.advantages-2 > #Go_with_ease{
+    width: 378px;
+    height: 73px;
+    margin-left: 98px;
+    margin-top: 120px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+}
+.advantages-2 > #make_transactions{
+    width: 373px;
+    height: 24px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.advantages-2 > button{
+    width: 118px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+
+    background-color: green;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+}
+.circle_MOD > .circle{
+    width: 79.73px;
+    height: 79.73px;
+    margin-left: 99px;
+    margin-top: 193px;
+
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px solid green;
+    border-left: white;
+    border-right: white;
+    border-radius: 50%;
+
+}
+
+.mode_of_Transaction{
+    display: flex;
+
+    width: 770px;
+    height: 50px;
+    margin-left: 144px;
+    margin-top: -63px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px solid green;
+    border-radius: 0 23px 23px 0;
+}
+
+.mode_of_Transaction > p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 60px;
+    margin-top: 13px;
+}
+.advantages-2 > img{
+    width: 419px;
+    height: 504px;
+    margin-left: 920px;
+    margin-top: -480px;
+}
+
+.advantage-3 > img{
+
+    width: 363px;
+    height: 498px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.wifi{
+
+    width: 135.35px;
+    height: 96.51px;
+    margin-left: 407.1px;
+    margin-top: -200.45px;
+
+    /*border: 3px solid red;*/
+    transform: rotate(15deg);
+}
+
+.wifi > .semione{
+    box-sizing: border-box;
+
+
+    width: 117px;
+    height: 117px;
+    aspect-ratio: 1;
+    margin-left: -30px;
+    margin-top: -5px;
+
+    border: 5px solid transparent;
+    border-top-color: red;
+    border-radius: 50%;
+    transform: rotate(29deg);
+}
+
+.wifi > .semitwo{
+    box-sizing: border-box;
+
+
+    width: 76px;
+    height: 76px;
+    margin-left: -10px;
+    margin-top: -98px;
+
+    border: 5px solid transparent;
+    border-top-color: red;
+    border-radius: 50%;
+    transform: rotate(29deg);
+}
+
+.wifi > .semithree{
+    box-sizing: border-box;
+
+    width: 33.12px;
+    height: 33.12px;
+    margin-left: 12px;
+    margin-top: -55px;
+
+    border: 5px solid transparent;
+    border-top-color: red;
+    border-radius: 50%;
+    transform: rotate(29deg);
+}
+
+.advantage-3 > #stability_with_ease{
+    width: 534px;
+    height: 73px;
+    margin-left: 815px;
+    margin-top: -400px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 73px;
+}
+
+.advantage-3 > #stable_service_delivery{
+    width: 403px;
+    height: 24px;
+    margin-left: 934px;
+    margin-top: 50px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+}
+
+.advantage-3 > .circle{
+    width: 78.96px;
+    height: 79.73px;
+    margin-left: 1260px;
+    margin-top: 110px;
+
+    background: rgba(255, 255, 255, 0.5);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    border-radius: 50%;
+    border: 3px solid green;
+    border-left: white;
+    border-right: white;
+}
+
+.advantage-3 > .advantages{
+    display: flex;
+
+    width: 531px;
+    height: 46px;
+    margin-left: 770px;
+    margin-top: -60px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 23px 0 0 23px;
+    border: 3px solid green;
+    /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+
+.advantages > p{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+@media screen{
+    /*For Tablets*/
+    .main{
+        width: 80%;
+        padding: 0;
+    }
+}

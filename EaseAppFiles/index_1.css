@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgba(1, 224, 104, 0.2);
+}
+.up {
+    display: flex;
+}
+
+.rectangles{
+    padding: 8vh 10vh 10vh;
+}
+.rectangle-1{
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #009A47 50%, #000000 131.48%);
+    margin-bottom: 7px;
+    margin-left:6px;
+    width: 33.75px;
+    height: 7.91px;
+}
+.rectangle-2{
+    background: linear-gradient(90deg, #009A47 50%, #000000 131.48%);
+    margin-bottom: 7px;
+    width: 33.75px;
+    height: 7.91px;
+}
+.rectangle-3{
+    background: linear-gradient(90deg, #009A47 50%, #000000 131.48%);
+    margin-left: 6px;
+    width: 33.75px;
+    height: 7.91px;
+}
+
+.links{
+    display: flex;
+    width: 658px;
+    height: 41px;
+    margin-left: 241px;
+    margin-top: 59px;
+
+    background: rgba(217, 217, 217, 0.2);
+    mix-blend-mode: darken;
+    border-radius: 35px;
+}
+
+.links a:hover{
+    color: lime;
+}
+
+#home{
+    color: red;
+}
+
+.links > a{
+    left: 755.61px;
+    top: 68px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: black;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 9px;
+    cursor: pointer;
+}
+
+.Create_new_account > p{
+
+    width: 305px;
+    height: 39px;
+    margin-left: 568px;
+    margin-top: 10px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.rectangle-4{
+
+    width: 424px;
+    height: 44.23px;
+    margin-left: 508px;
+    margin-top: 18px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    padding-left: 5vh;
+
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.rectangle-5{
+    width: 424px;
+    height: 44.23px;
+    margin-left: 508px;
+    margin-top: 25.44px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    padding-left: 5vh;
+
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.rectangle-6{
+
+    width: 424px;
+    height: 44.23px;
+    margin-left: 508px;
+    margin-top: 27.88px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    padding-left: 5vh;
+
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.rectangle-7{
+
+    width: 424px;
+    height: 44.23px;
+    margin-left: 508px;
+    margin-top: 28px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    padding-left: 5vh;
+
+    color: rgba(0, 0, 0, 0.25);
+}
+
+select{
+
+    width: 424px;
+    height: 47.23px;
+    margin-left: 508px;
+    margin-top: 20px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    padding-left: 5vh;
+    border: none;
+
+    color: rgba(0, 0, 0, 0.25);
+}
+
+#boy {
+    width: 424px;
+    height: 44.23px;
+    margin-left: 508px;
+    margin-top: 10px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    padding-left: 5vh;
+    border: none;
+
+    color: black;
+}#girl {
+
+    width: 424px;
+    height: 44.23px;
+    margin-left: 508px;
+    margin-top: 10px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px;
+    padding-left: 5vh;
+    border: none;
+
+    color: black;
+    margin-bottom: 35px;
+}
+
+.Create_new_account > a{
+
+
+    margin-left: 668px;
+    margin-top: 90px;
+    width: 320px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+
+    background: #065A2D;
+    border-radius: 10px;
+    border: none;
+}
+
+
+
